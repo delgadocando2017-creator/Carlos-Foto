@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Portafolio Fotográfico de Carlos Delgado">
+<meta name="keywords" content="fotografía, deporte, retratos, eventos, portafolio">
+<title>Carlos Delgado | Fotografía</title>
+<link rel="stylesheet" href="estilo.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+<div id="agrupar">
+
+<header id="cabecera">
+  <div class="cabecera-contenido">
+    <img src="imagenes/banner.gif" alt="Carlos Delgado Fotografía" class="banner-gif">
+    <h1>Carlos Delgado Fotografía</h1>
+  </div>
+</header>
+
+<nav id="menu">
+  <div class="menu-container">
+    <div class="logo">📸</div>
+
+    <!-- Botón hamburguesa -->
+    <button class="menu-toggle" id="menu-toggle">
+      ☰
+    </button>
+
+    <!-- Menú de enlaces -->
+    <ul id="menu-list">
+      <li><a href="#principal">Inicio</a></li>
+      <li><a href="#fotos">Galería</a></li>
+      <li><a href="tel:+573167081850" class="boton">📞 Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main id="contenido">
+  <section id="seccion">
+    <article>
+      <header>
+        <hgroup>
+          <h2>Capturando emociones en el deporte</h2>
+          <h3>Fútbol infantil y juvenil</h3>
+        </hgroup>
+        <time datetime="2025-08-14" pubdate>Publicado 14-08-2025</time>
+      </header>
+      <p>Mi objetivo es inmortalizar los momentos más emocionantes en el campo de juego, desde las jugadas llenas de energía hasta las celebraciones que quedan en la memoria. Cada fotografía es un recuerdo único para jugadores y familias.</p>
+      <figure>
+        <a href="imagenes/_CFD3479.jpg" target="_blank">
+          <img src="imagenes/_CFD3479 - copia.jpg" alt="Partido de fútbol infantil">
+        </a>
+        <figcaption>Jugada destacada en torneo regional</figcaption>
+      </figure>
+      <footer><p>comentarios (0)</p></footer>
+    </article>
+
+    <article>
+      <header>
+        <hgroup>
+          <h2>Retratos con historia</h2>
+          <h3>Capturando la esencia de cada persona</h3>
+        </hgroup>
+        <time datetime="2025-08-10" pubdate>Publicado 10-08-2025</time>
+      </header>
+      <p>Más allá de la técnica, busco que cada retrato cuente una historia, transmitiendo la personalidad y emociones del sujeto, ya sea en un evento familiar o en una sesión individual.</p>
+      <figure>
+        <a href="imagenes/_CFD6701.jpg" target="_blank">
+          <img src="imagenes/_CFD6701 - copia.jpg" alt="Retrato artístico">
+        </a>
+        <figcaption>Retrato con luz natural</figcaption>
+      </figure>
+      <footer><p>comentarios (0)</p></footer>
+    </article>
+  </section>
+
+  <aside id="columna">
+    <h2>Sobre mí</h2>
+    <figure>
+      <img src="imagenes/foto.jpg" alt="Carlos Delgado">
+      <figcaption>Carlos Delgado</figcaption>
+    </figure>
+    <p>Soy Carlos Delgado, fotógrafo apasionado por capturar la emoción del deporte y los instantes más significativos de la vida. Mi enfoque combina técnica, creatividad y una gran sensibilidad para congelar momentos únicos. Me especializo en fotografía deportiva infantil, pero también realizo retratos y sesiones personalizadas.</p>
+
+    <div id="container">
+      Encuentra
+      <div id="flip">
+        <div><div>Pasión</div></div>
+        <div><div>Deporte</div></div>
+        <div><div>Amor</div></div>
+      </div>
+      Aquí
+    </div>
+
+    <button formsappId="689fbc888d01a40b03e350bc"></button>
+    <script src="https://forms.app/cdn/embed.js" type="text/javascript" async defer onload="new formsapp('689fbc888d01a40b03e350bc', 'slider', {'overlay':'rgba(45,45,45,0.66)','button':{'color':'#f4c542','text':'Cotiza aquí'},'width':'90vw','height':'100vh','align':'right'}, 'https://0pm1schv.forms.app');"></script>
+  </aside>
+</main>
+
+<footer id="pie">
+  <span>Derechos Reservados &copy; 2025 - Carlos Delgado Fotografía</span>
+  <a href="https://www.instagram.com/krlos_fdo_del" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
+</footer>
+
+</div>
+<script>
+  const toggle = document.getElementById("menu-toggle");
+  const menu = document.getElementById("menu-list");
+
+  toggle.addEventListener("click", () => {
+    menu.classList.toggle("active");
+  });
+</script>
+</body>
+</html>
